@@ -17,6 +17,13 @@ class Demo {
 
 export {Demo};
 
+enum Color {Red, Green, Blue};
+var c: Color = Color.Green;
+
+
+enum Color2 {Red = 1, Green = 2, Blue = 4};
+var c2: Color2 = Color2.Green
+
 /**
  *
  *引用
