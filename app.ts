@@ -24,6 +24,13 @@ var c: Color = Color.Green;
 enum Color2 {Red = 1, Green = 2, Blue = 4};
 var c2: Color2 = Color2.Green
 
+function printLabel(labelledObj: {label: string}) {
+  console.log(labelledObj.label);
+}
+
+var myObj = {size: 10, label: "Size 10 Object"};
+printLabel(myObj);
+
 /**
  *
  *引用

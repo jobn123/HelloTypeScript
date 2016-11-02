@@ -75,6 +75,11 @@
 	})(Color2 || (Color2 = {}));
 	;
 	var c2 = Color2.Green;
+	function printLabel(labelledObj) {
+	    console.log(labelledObj.label);
+	}
+	var myObj = { size: 10, label: "Size 10 Object" };
+	printLabel(myObj);
 	/**
 	 *
 	 *引用
